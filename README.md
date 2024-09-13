@@ -1,11 +1,8 @@
 # S1Loader
 
-### Prerequisites
+### Prerequisites To Build
 - Visual Studio 2010
 - Xbox 360 SDK
-
-### Building the code
-- Build the VS solution in `build` folder
 
 ## Supported Builds
 -  Build 1054582 Thu Sep 04 00:27:16 2014
@@ -18,3 +15,7 @@
 - 6-s1_mp_fast_server.exe
 
 If an executable you are using is not listed here, it's because those executables use precompiled scripts.
+
+## Loading Scripts/RawFiles
+- Load the xex after loading the game executable. (Do not put as an RGLoader plugin. Use a tool!)
+- Create a folder named raw in the game directory and copy scripts/rawfiles into raw
